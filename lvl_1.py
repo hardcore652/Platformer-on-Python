@@ -69,6 +69,8 @@ level = [
 "dgggggggggggggggggggggggggggggggggggggggggggggggggggggggggd"]
 
 def next_level():
+	with open(script_dir+"lvl.txt", "w") as f:
+		f.write("2")
 	sleep(1)
 	pygame.quit()
 	call(["python", script_dir+"lvl_2.py"])		
