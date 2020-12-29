@@ -1,0 +1,3 @@
+DO NOT RENAME ANY FILES!!!
+
+OPEN starter.py
